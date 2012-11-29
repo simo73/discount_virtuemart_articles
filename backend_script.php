@@ -3,13 +3,11 @@
 error_reporting(0);
 
 
-$db_host = 'localhost';
+/*
 
-$db_user = 'captainh_captain';
+DATABASE CONNECTON HERE
 
-$db_pass = '790405';
-
-$db_name = 'captainh_db';
+*/
 
 $global_dbh=mysql_connect($db_host,$db_user,$db_pass) or die(mysql_error());
 
